@@ -56,5 +56,4 @@ O projeto foi desenvolvido com base em 3 pontos principais:
  ```
  
  ## Agradecimentos
- Agradeço à equipe da Rocketseat pela oportunidade de participar de um evento com tamanha quantidade de conhecimentos e técnicas que ajudam o promagador a avançar cada
- vez mais em sua jornada.
+Agradeço à equipe da Rocketseat pela oportunidade de participar de um evento com tamanha quantidade de conhecimentos e técnicas que ajudam o progamador a avançar cada vez mais em sua jornada.
