@@ -20,26 +20,14 @@ O projeto foi desenvolvido com base em 3 pontos principais:
   * [Node.js](https://nodejs.org/en/)
   * [TypeScript](https://www.typescriptlang.org/)
   * [React Native](https://reactnative.dev/)
-
-## :memo: Dependências principais
-  **Server (Node.js)**
-   * express
-   * cors
-   * knex
-   * sqlite3
-   
- **Web (ReactJS)**
-   * react
-   * react-dom
-   * react-router-dom
-   * react-scripts
-   * typescript
+  * [Expo](https://expo.io/)
    
  ## Como utilizar
  ```
  # Clone este repositório
  $ git clone https://github.com/jean-vr/next-level-week-2.git
  
+ # Instale o Node.js
  # Vá para a pasta de cada programa e instale as dependências
  
  # Para o projeto server
@@ -53,6 +41,14 @@ O projeto foi desenvolvido com base em 3 pontos principais:
  $ npm i
  $ npm start
  
+ # Para o projeto mobile
+ $ cd mobile
+ $ npm i -g expo-cli
+ $ npm i
+ $ npm start
+ 
+ # Após isso, scaneie o QR Code pelo Expo client que pode ser instalado na App Store ou Google Play
+ # Ou rode em um emulador em sua máquina
  ```
  
  ## Agradecimentos
