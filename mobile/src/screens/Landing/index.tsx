@@ -1,17 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { View, Image, Text } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { RectButton } from 'react-native-gesture-handler'
+import { useFocusEffect } from '@react-navigation/native'
 
 import styles from './styles'
+
+import api from '../../services/api'
 
 import LandingImg from '../../assets/images/landing.png'
 import StudyIcon from '../../assets/images/icons/study.png'
 import GiveClassesIcon from '../../assets/images/icons/give-classes.png'
 import PurpleHeart from '../../assets/images/icons/heart.png'
 
+
 function Landing() {
     const navigation = useNavigation()
+    const [totalConnections, setTotalConnections] = useState(0)
+
+    useFocusEffect(
+        React.useCallback(() => {
+            api.get('connections').then(response => {
+                const { total } = response.data
+                setTotalConnections(total)
+            })
+        }, [])
+    )
 
     function handleNavigateToGiveClassesScreen() {
         navigation.navigate('GiveClasses')
@@ -47,7 +61,7 @@ function Landing() {
             </View>
 
             <Text style={styles.totalConnections}>
-                Total de 200 conexões já realizadas {' '}
+                Total de {totalConnections} conexões já realizadas {' '}
                 <Image source={PurpleHeart} />
             </Text>
         </View>

@@ -23,13 +23,13 @@ export default function StudyTabs() {
                 },
                 iconStyle: {
                     flex: 0,
-                    width: 20,
-                    height: 20
+                    width: 21,
+                    height: 21,
                 },
                 labelStyle: {
                    fontFamily: 'Archivo_700Bold',
                    fontSize: 13,
-                   marginLeft: 16 
+                   marginLeft: 16,
                 },
                 inactiveBackgroundColor: '#FAFAFC',
                 activeBackgroundColor: '#EBEBF5',
