@@ -1,4 +1,4 @@
-# Next Level Week #2 - Proffy :purple_heart:
+# Next Level Week #2 - Proffy
 ![alt text](https://github.com/jean-vr/next-level-week-2/blob/master/about/images/proffy.png)
 
 ## Sobre o projeto
@@ -52,4 +52,4 @@ O projeto foi desenvolvido com base em 3 pontos principais:
  ```
  
  ## Agradecimentos
-Agradeço à equipe da Rocketseat pela oportunidade de participar de um evento com tamanha quantidade de conhecimentos e técnicas que ajudam o progamador a avançar cada vez mais em sua jornada.
+Agradeço à equipe da Rocketseat pela oportunidade de participar de um evento com tamanha quantidade de conhecimentos e técnicas.
